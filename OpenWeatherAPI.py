@@ -1,6 +1,9 @@
 import requests
 
-API_key = '645379a3cc9e9c466b29b52f6ea98c32'
+# API Key obtained by Subscribing to OpenWeatherMap.org
+# API used here is Personal and not intended to be shared or re-used by anyone other than the project leads
+
+API_key = #'HIDDEN'
 
 def current_weather_data(CITY, API):
     get_weather_details = f'https://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={API}'
